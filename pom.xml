@@ -11,6 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>reggie-master</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>reggie-master</name>
     <description>reggie-master</description>
     <properties>
@@ -73,6 +74,11 @@
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
             <version>1.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

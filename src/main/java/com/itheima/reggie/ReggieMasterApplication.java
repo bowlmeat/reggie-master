@@ -16,3 +16,4 @@ public class ReggieMasterApplication {
         log.info("项目加载成功");
     }
 }
+
